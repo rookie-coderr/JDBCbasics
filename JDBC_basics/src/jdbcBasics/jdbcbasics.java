@@ -56,7 +56,7 @@ public class jdbcbasics {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} 
-//			finally {
+//		finally {
 //			try {
 //				if(rs!=null){
 //					rs.close();
@@ -66,8 +66,7 @@ public class jdbcbasics {
 //					connection.close();
 //			} catch (SQLException e) {
 //				e.printStackTrace();
-//			}
-//			
+//			}	
 //		}
 		
 	}
