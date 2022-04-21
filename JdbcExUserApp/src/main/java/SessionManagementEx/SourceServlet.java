@@ -18,7 +18,7 @@ public class SourceServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		HttpSession session = request.getSession();
 		session.setAttribute("email", email);
-		response.setContentType("text/html");
+//		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.println("<a href='targetServlet'>Click here to get user name</a>" );
 		

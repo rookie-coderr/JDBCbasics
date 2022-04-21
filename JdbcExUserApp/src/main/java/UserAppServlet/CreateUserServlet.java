@@ -30,6 +30,7 @@ public class CreateUserServlet extends HttpServlet {
 					context.getInitParameter("dbUser"), 
 					context.getInitParameter("dbPassword"));
 		} catch (SQLException | ClassNotFoundException e) {
+//			System.out.println("Error occurres");
 			e.printStackTrace();
 		}
 	}
